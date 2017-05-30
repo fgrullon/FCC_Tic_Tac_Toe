@@ -1,0 +1,52 @@
+.container {
+	position: absolute;
+	width: 405px;
+	height: 450px;
+	background-color: gray;
+	z-index: 1;
+	left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.container a{
+	border: 1px solid white;
+	width: 133px;
+	height: 148px;
+	line-height: 148px;
+	float: left;
+	color: white;
+	font-size: 80px;
+	text-align: center;
+
+}
+
+.simbol{
+	position: absolute;
+	z-index: 100;
+	width: 200px;
+	height: 115px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	left: 50%;
+	top: 20%;
+    transform: translate(-50%, 0);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+.simbol a{
+		height: 50px;
+}
+
+.x, .o{
+	font-size: 50px;
+	font-weight: bold;
+	padding-right: 20px;
+	padding-left: 20px;
+
+}
+
+.x{
+	border-right: 2px solid white; 
+}
