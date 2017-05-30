@@ -19,9 +19,6 @@ $(function(){
 		}
 
 		document.getElementsByClassName(clase)[0].innerText =  x_or_o;
-		moves.push(clase);
-		console.log(moves)
-		//alert(clase);
 	});
 
 });
