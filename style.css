@@ -1,3 +1,16 @@
+
+h1{
+	font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;
+	text-align: center;
+}
+.result{
+	display: none;
+	color: #98FB98;
+}
+
+.disabled {
+	pointer-events: none;
+}
 .container {
 	position: absolute;
 	width: 405px;
@@ -20,7 +33,7 @@
 
 }
 
-.simbol{
+.simbol, .result{
 	position: absolute;
 	z-index: 100;
 	width: 200px;
@@ -49,4 +62,10 @@
 
 .x{
 	border-right: 2px solid white; 
+}
+
+.reset {
+	background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
 }
